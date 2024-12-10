@@ -18,7 +18,7 @@ if (Session::get('success')) {
 <?php
     Session::delete('success');
 } ?>
-<div class="alert">
+<div class="alert alert-dark">
 
     <a href="<?= ROOT; ?>students/form" class="btn btn-success"> Create Student </a>
 </div>
