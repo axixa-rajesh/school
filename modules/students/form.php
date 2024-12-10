@@ -10,7 +10,7 @@ if (isset($_POST['class_name'])) {
         Session::set('success', "Class " . ($tableid ? 'updated' : 'inserted') . " successfully");
         redirect('classes/');
     } else {
-        $error = "Something went wrong!";
+        $error = "Something went wrong!"; 
     }
 }
 if ($error ?? "") {
