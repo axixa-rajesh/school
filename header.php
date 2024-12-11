@@ -3,10 +3,8 @@
 
 <head>
     <title>School Project</title>
-
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="<?= ROOT; ?>css/bootstrap.css" />
-
     <!-- fonts style -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <!--owl slider stylesheet -->
